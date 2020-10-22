@@ -1,0 +1,16 @@
+﻿<Application x:Class="TelegramKP_Komissia.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TelegramKP_Komissia"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Border" x:Key="BorderStyle">
+            <Setter Property="CornerRadius" Value="5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="#4CD3D3D3"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="#DC5B21"/>
+        </Style>
+    </Application.Resources>
+</Application>
