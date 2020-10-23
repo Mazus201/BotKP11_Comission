@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:TelegramKP_Komissia"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
         WindowStyle="ThreeDBorderWindow"
-        Title="Support TeleBot" Height="800" Width="800">
+        Title="Support TeleBot" Height="800" Width="800"
+                                MinHeight="600" MinWidth="400">
     <Grid Background="#FFE4DBBF">
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -33,6 +34,7 @@
                 Grid.Row="0"
                 Style="{StaticResource BorderStyle}">
             <ListBox Name="LBMessateg"
+                     MinWidth="200"
                      FontSize="16pt"
                      HorizontalContentAlignment="Left"
                      ItemsSource="{Binding ElementName=LBUsers, Path=SelectedItem.Messages}">
