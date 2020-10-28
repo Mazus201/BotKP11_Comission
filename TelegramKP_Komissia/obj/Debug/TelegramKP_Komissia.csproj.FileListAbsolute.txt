@@ -19,3 +19,5 @@ C:\Users\Никита\source\repos\TelegramKP_Komissia\TelegramKP_Komissia\bin\D
 C:\Users\Никита\source\repos\TelegramKP_Komissia\TelegramKP_Komissia\bin\Debug\Telegram.Bot.xml
 C:\Users\Никита\source\repos\TelegramKP_Komissia\TelegramKP_Komissia\obj\Debug\App.baml
 C:\Users\Никита\source\repos\TelegramKP_Komissia\TelegramKP_Komissia\obj\Debug\TelegramKP_Komissia.csproj.CopyComplete
+C:\Users\Никита\source\repos\TelegramKP_Komissia\TelegramKP_Komissia\obj\Debug\Statistic.g.cs
+C:\Users\Никита\source\repos\TelegramKP_Komissia\TelegramKP_Komissia\obj\Debug\Statistic.baml

@@ -22,14 +22,22 @@
                 Grid.RowSpan="2"
                 Style="{StaticResource BorderStyle}">
             <ListBox Name="LBUsers"
-                     FontSize="18pt">
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding Nick}"/>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
+                         FontSize="18pt">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Nick}"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
         </Border>
+            <TextBlock VerticalAlignment="Bottom"
+                       Grid.Row="1"
+                       Margin="12"
+                       HorizontalAlignment="Center">
+                    <Hyperlink Click="Hyperlink_Click">
+                        Статистика
+                    </Hyperlink>
+            </TextBlock>
         <Border Grid.Column="1"
                 Grid.Row="0"
                 Style="{StaticResource BorderStyle}">

@@ -12,5 +12,9 @@
             <Setter Property="BorderThickness" Value="2"/>
             <Setter Property="BorderBrush" Value="#DC5B21"/>
         </Style>
+        <Style TargetType="TextBlock" x:Key="textStat">
+            <Setter Property="FontSize" Value="16pt"/>
+            <Setter Property="Margin" Value="0, 7"/>
+        </Style>
     </Application.Resources>
 </Application>

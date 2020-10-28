@@ -66,4 +66,5 @@ namespace TelegramKP_Komissia.AppData
         /// <param name="Text"></param>
         public void AddMessage(string Text) => Messages.Add(Text);
     }
+
 }

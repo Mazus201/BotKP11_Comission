@@ -1,0 +1,42 @@
+﻿<Window x:Class="TelegramKP_Komissia.Statistic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TelegramKP_Komissia"
+        mc:Ignorable="d"
+        Title="Statistic" Height="450" Width="300">
+    <Grid Background="#FFE4DBBF">
+        <Border Grid.Column="0"
+                Grid.Row="0"
+                Grid.RowSpan="2"
+                Style="{StaticResource BorderStyle}">
+            <TextBlock Text="Статистика"
+                       HorizontalAlignment="Center"
+                       FontSize="22pt"/>
+        </Border>
+        <StackPanel Margin="15,60">
+            <TextBlock Text="/start"
+                       Name="TxtStart"
+                       Style="{StaticResource textStat}"/>
+            <TextBlock Text="/help"
+                       Margin="0"
+                       Name="TxtHelp"
+                       Style="{StaticResource textStat}"/>
+            <TextBlock Text="/menu"
+                       Name="TxtMenu"
+                       Style="{StaticResource textStat}"/>
+            <TextBlock Text="/links"
+                       Margin="0"
+                       Name="TxtLinks"
+                       Style="{StaticResource textStat}"/>
+            <TextBlock Text="/support"
+                       Name="TxtSupport"
+                       Style="{StaticResource textStat}"/>
+            <TextBlock Text="/keyboard"
+                       Margin="0"
+                       Name="txtKeyboard"
+                       Style="{StaticResource textStat}"/>
+        </StackPanel>
+    </Grid>
+</Window>
